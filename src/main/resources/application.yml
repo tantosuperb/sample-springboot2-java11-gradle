@@ -1,0 +1,18 @@
+spring:
+  profiles.active: test
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+logging:
+  charset:
+    console: UTF-8
+    file: UTF-8
+  pattern:
+    console: "[%d{HH:mm:ss.SSS}][%-5level][%.38t][%logger{39}#%method:%line] - %msg%n"
+    file: "[%d{HH:mm:ss.SSS}][%-5level][%.38t][%logger{39}#%method:%line] - %msg%n"

@@ -1,0 +1,37 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2.console.enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true # SQL 개행
+        highlight_sql: true
+        use_sql_comments: true # 실행되는 쿼리문 HINT 표시
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+  devtools:
+    livereload:
+      enabled: true
+
+# swagger doc
+springdoc:
+  version: v0.0.1
+  title: "Sample spring boot2 java gradle"
+  description: "스프링부트 샘플 자바 프로젝"
+  packages-to-scan: com.example.samplespringboot2javagradle
+  swagger-ui:
+    path: /
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /api-docs/json
+    groups.enabled: true
+  cache.disabled: true
+  default-consumes-media-type: application/json;charset=UTF-8
+  default-produces-media-type: application/json;charset=UTF-8
