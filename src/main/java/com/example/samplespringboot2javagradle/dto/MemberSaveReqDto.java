@@ -24,7 +24,7 @@ import lombok.ToString;
 @Builder
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
-public class MemberReqDto {
+public class MemberSaveReqDto {
 
     private String email;
 
