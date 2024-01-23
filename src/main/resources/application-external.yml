@@ -18,3 +18,7 @@ spring:
     init:
       platform: mysql
       mode: always
+
+logging:
+  level:
+    root: debug
