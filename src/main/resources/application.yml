@@ -21,7 +21,7 @@ logging:
 springdoc:
   version: v0.0.1
   title: "Sample spring boot2 java gradle"
-  description: "스프링부트 샘플 자바 프로젝트"
+  description: "스프링부트2 자바11 샘플 프로젝트"
   packages-to-scan: com.example.samplespringboot2javagradle
   swagger-ui:
     path: /
