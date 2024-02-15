@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://10.78.95.55:13306/sample-db?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://app-23d40f854d2f19bc88d7fa89fd2a3bbf-chart.50010-f7a49c.svc.cluster.local:3306/project_db?serverTimezone=Asia/Seoul
     username: root
-    password: password1!
+    password: 1234
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
