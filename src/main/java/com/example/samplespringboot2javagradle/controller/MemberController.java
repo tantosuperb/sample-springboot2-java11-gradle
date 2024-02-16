@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 1.0
  */
 @Tag(name = "Member Controller", description = "DB CRUD용 회원 컨트롤러")
-@RequestMapping("member/v1")
+@RequestMapping("members/v1")
 @RequiredArgsConstructor
 @RestController
 public class MemberController {
