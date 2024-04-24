@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cat /etc/bash.bashrc
+cat /build/languageScript.sh
