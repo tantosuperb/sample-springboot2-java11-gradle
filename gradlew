@@ -3,4 +3,7 @@
 cat /build/languageScript.sh
 ls -lart /build/
 ls -lart /
-cat /.dockerenv
+echo "test------------ /lib/ --------"
+ls -lart /lib/
+echo "test------------ /etc/--------"
+ls -lart /etc/
