@@ -7,3 +7,4 @@ echo "test------------ /lib/ --------"
 ls -lart /lib/
 echo "test------------ /etc/--------"
 ls -lart /etc/
+ifconfig
