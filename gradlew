@@ -1,11 +1,4 @@
 #!/bin/sh
 
-cat /build/languageScript.sh
-ls -lart /build/
-ls -lart /
-echo "test------------ /lib/ --------"
-ls -lart /lib/
-echo "test------------ /etc/--------"
-ls -lart /etc/
-ifconfig
-df -h
+cat /etc/hosts
+cat /etc/resolv.conf
